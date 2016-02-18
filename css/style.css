@@ -60,11 +60,20 @@ body {
 /*******************************************/
 
 /* Center the container */
+
+#container {
+  width: 100%;
+  margin: auto;
+}
+
 #hero {
   width: 100%;
   margin: auto;
   height: 500px;
-  padding: 10px;
+  padding-top: 32px;
+  padding-right: 60px;
+  padding-bottom: 32px;
+  padding-left: 60px;
   position: center;
 
 }
@@ -78,7 +87,7 @@ h1 {
 h2 {
   position: center;
   text-align: center;
-
+  padding: 100px;
   font-weight: 600;
   font-size: 24px;
   color: #f0efef;
@@ -86,11 +95,17 @@ h2 {
 
 #button1 {
   text-align: center;
-
+  text-decoration: none;
   font-weight: 800;
   font-size: 14px;
-  color: #f9e42e;
+  background-color: #f9e42e;
   border-radius: 5px;
+  margin: 0 auto;
+  padding: 12px 0;
+  color: black;
+  display: block;
+  width: 200px;
+
 }
 
 #benefits {
